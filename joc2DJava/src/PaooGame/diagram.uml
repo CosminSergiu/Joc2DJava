@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="699.4736800889115" y="1083.573345324385">PaooGame.Graphics.ImageLoader</node>
+    <node x="573.8980600602787" y="685.0202702004285">PaooGame.BazaDate.BazaDate</node>
+    <node x="836.891309653714" y="535.4971667136161">PaooGame.entity.Macron</node>
+    <node x="180.79455983937572" y="315.5679296041427">PaooGame.Tiles.Tile</node>
+    <node x="810.7258572388126" y="898.3198113586901">PaooGame.State.PierdereState</node>
+    <node x="392.4155695681497" y="525.4723736522348">PaooGame.entity.Biden</node>
+    <node x="225.35197271175292" y="1177.2637321718773">PaooGame.Nivel</node>
+    <node x="617.0962449113111" y="524.8596880251562">PaooGame.entity.Boris</node>
+    <node x="864.7702841888477" y="394.0078195543736">PaooGame.Tiles.TankTile</node>
+    <node x="1096.4605238428755" y="785.6622002342723">PaooGame.Sound</node>
+    <node x="396.74749408956603" y="228.3304710711657">PaooGame.Level.Level1</node>
+    <node x="813.0874584211324" y="704.3556344935984">PaooGame.entity.Player</node>
+    <node x="-35.860596185144004" y="661.1500822566725">PaooGame.object.inima</node>
+    <node x="615.9703799856683" y="167.34270165627854">PaooGame.Menu.Menu</node>
+    <node x="468.4265644019643" y="-14.199967822455434">PaooGame.KeyboardHandler</node>
+    <node x="433.0855936443689" y="844.4070970993606">PaooGame.GameWindow.GameWindow</node>
+    <node x="906.688687210671" y="251.5883944977437">PaooGame.Main</node>
+    <node x="169.10406758015944" y="1011.0462917056668">PaooGame.Graphics.SpriteSheet</node>
+    <node x="173.5572810107782" y="501.59422536194614">PaooGame.Level.Level2</node>
+    <node x="711.7841567983355" y="1220.767705487411">PaooGame.State.HelpState</node>
+    <node x="677.6044463330621" y="393.1269436131526">PaooGame.entity.Entity</node>
+    <node x="-83.30242459026167" y="437.2505762498745">PaooGame.Tiles.Putin</node>
+    <node x="484.24026657608783" y="1118.2107207947938">PaooGame.Tiles.PamantTile</node>
+    <node x="860.809289090262" y="-13.94140820045709">PaooGame.Tiles.TileManager</node>
+    <node x="399.7363232053641" y="388.5764666447348">PaooGame.Level.Level</node>
+    <node x="271.74676244271734" y="755.1641238537808">PaooGame.Graphics.Assets</node>
+    <node x="1055.4483390678542" y="541.5080853924405">PaooGame.state</node>
+    <node x="209.66174341834073" y="84.50206300485307">PaooGame.Tiles.ZidPiatraTile</node>
+    <node x="992.5296347853842" y="1166.1622617162845">PaooGame.State.VictorieState</node>
+    <node x="-27.99572119281632" y="173.50717338348494">PaooGame.Tiles.ZidCaramidaTile</node>
+    <node x="445.7399740624896" y="1332.81268658888">PaooGame.Game</node>
+    <node x="993.0099572723865" y="1035.719860223156">PaooGame.State.StateDraw</node>
+    <node x="774.5184652187908" y="1358.5984015766237">PaooGame.Collision</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="PaooGame.entity.Biden" target="PaooGame.entity.Entity" relationship="GENERALIZATION">
+      <point x="4.304318503045579E-4" y="-49.50037365223477" />
+      <point x="470.416" y="507.36" />
+      <point x="794.0" y="507.36" />
+      <point x="794.0" y="420.127" />
+      <point x="44.99955366693791" y="5.638684740461031E-5" />
+    </edge>
+    <edge source="PaooGame.State.PierdereState" target="PaooGame.State.StateDraw" relationship="REALIZATION">
+      <point x="1.4276118736233911E-4" y="38.50018864130993" />
+      <point x="888.726" y="1024.9070000000002" />
+      <point x="963.0" y="1024.9070000000002" />
+      <point x="963.0" y="1062.72" />
+      <point x="-77.9999572723865" y="1.3977684409383073E-4" />
+    </edge>
+    <edge source="PaooGame.Tiles.PamantTile" target="PaooGame.Tiles.Tile" relationship="GENERALIZATION">
+      <point x="-68.50026657608782" y="2.7920520619773015E-4" />
+      <point x="-100.80200000000002" y="1156.711" />
+      <point x="-100.80200000000002" y="270.0" />
+      <point x="163.0" y="270.0" />
+      <point x="163.0" y="354.068" />
+      <point x="-68.4995598393757" y="7.039585727852682E-5" />
+    </edge>
+    <edge source="PaooGame.entity.Boris" target="PaooGame.entity.Entity" relationship="GENERALIZATION">
+      <point x="77.99975508868886" y="3.119748437825365E-4" />
+      <point x="794.0" y="574.36" />
+      <point x="794.0" y="420.127" />
+      <point x="44.99955366693791" y="5.638684740461031E-5" />
+    </edge>
+    <edge source="PaooGame.Tiles.Putin" target="PaooGame.Tiles.Tile" relationship="GENERALIZATION">
+      <point x="98.00042459026167" y="-8.250576249874484" />
+      <point x="163.0" y="478.5" />
+      <point x="163.0" y="354.068" />
+      <point x="-68.4995598393757" y="7.039585727852682E-5" />
+    </edge>
+    <edge source="PaooGame.Tiles.ZidPiatraTile" target="PaooGame.Tiles.Tile" relationship="GENERALIZATION">
+      <point x="-69.49974341834073" y="-6.300485306809378E-5" />
+      <point x="163.0" y="123.00200000000001" />
+      <point x="163.0" y="354.068" />
+      <point x="-68.4995598393757" y="7.039585727852682E-5" />
+    </edge>
+    <edge source="PaooGame.entity.Player" target="PaooGame.entity.Entity" relationship="GENERALIZATION">
+      <point x="-110.50045842113241" y="3.655064016356846E-4" />
+      <point x="794.0" y="764.856" />
+      <point x="794.0" y="420.127" />
+      <point x="44.99955366693791" y="5.638684740461031E-5" />
+    </edge>
+    <edge source="PaooGame.State.HelpState" target="PaooGame.State.StateDraw" relationship="REALIZATION">
+      <point x="77.99984320166448" y="2.945125891073985E-4" />
+      <point x="963.0" y="1259.268" />
+      <point x="963.0" y="1062.72" />
+      <point x="-77.9999572723865" y="1.3977684409383073E-4" />
+    </edge>
+    <edge source="PaooGame.Tiles.TankTile" target="PaooGame.Tiles.Tile" relationship="GENERALIZATION">
+      <point x="-2.8418884767233976E-4" y="-38.49981955437363" />
+      <point x="933.27" y="364.843" />
+      <point x="366.16200000000003" y="364.843" />
+      <point x="366.16200000000003" y="270.0" />
+      <point x="163.0" y="270.0" />
+      <point x="163.0" y="354.068" />
+      <point x="-68.4995598393757" y="7.039585727852682E-5" />
+    </edge>
+    <edge source="PaooGame.Level.Level2" target="PaooGame.Level.Level" relationship="REALIZATION">
+      <point x="-2.810107782096338E-4" y="-49.50022536194615" />
+      <point x="251.55700000000002" y="444.751" />
+      <point x="382.0" y="444.751" />
+      <point x="382.0" y="426.576" />
+      <point x="-78.00032320536411" y="-4.6664473478585933E-4" />
+    </edge>
+    <edge source="PaooGame.State.VictorieState" target="PaooGame.State.StateDraw" relationship="REALIZATION">
+      <point x="-77.99963478538427" y="-2.617162845126586E-4" />
+      <point x="963.0" y="1204.662" />
+      <point x="963.0" y="1062.72" />
+      <point x="-77.9999572723865" y="1.3977684409383073E-4" />
+    </edge>
+    <edge source="PaooGame.entity.Macron" target="PaooGame.entity.Entity" relationship="GENERALIZATION">
+      <point x="-78.000309653714" y="-1.667136161813687E-4" />
+      <point x="794.0" y="584.997" />
+      <point x="794.0" y="420.127" />
+      <point x="44.99955366693791" y="5.638684740461031E-5" />
+    </edge>
+    <edge source="PaooGame.Tiles.ZidCaramidaTile" target="PaooGame.Tiles.Tile" relationship="GENERALIZATION">
+      <point x="80.99972119281631" y="-1.7338348493467493E-4" />
+      <point x="163.0" y="212.007" />
+      <point x="163.0" y="354.068" />
+      <point x="-68.4995598393757" y="7.039585727852682E-5" />
+    </edge>
+    <edge source="PaooGame.Level.Level1" target="PaooGame.Level.Level" relationship="REALIZATION">
+      <point x="-78.00049408956602" y="-4.710711656912281E-4" />
+      <point x="382.0" y="277.83000000000004" />
+      <point x="382.0" y="426.576" />
+      <point x="-78.00032320536411" y="-4.6664473478585933E-4" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.5561192136968929" showDependencies="false" x="566.4999999999999" y="773.4999999999999" />
+  <SelectedNodes>
+    <node>PaooGame.state</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>protected</VISIBILITY>
+</Diagram>
+
